@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Walmart ecommerce Website Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\User\eclipse-workspace\WalmartTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Walmart_ecommerce_Website_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 2 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" class="hide-methods failed suite-Walmart_ecommerce_Website_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Walmart_ecommerce_Website_Test_Suite -->
+                      <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" class="show-methods failed suite-Walmart_ecommerce_Website_Test_Suite"> (show)</a> <!-- show-methods failed suite-Walmart_ecommerce_Website_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Walmart_ecommerce_Website_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.FlyerpageTest" class="method navigator-link" hash-for-method="selectflyertypetest">selectflyertypetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.ShoppingCartpageTest" class="method navigator-link" hash-for-method="verifycartpagetest">verifycartpagetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Walmart_ecommerce_Website_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" class="hide-methods passed suite-Walmart_ecommerce_Website_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Walmart_ecommerce_Website_Test_Suite -->
+                      <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" class="show-methods passed suite-Walmart_ecommerce_Website_Test_Suite"> (show)</a> <!-- show-methods passed suite-Walmart_ecommerce_Website_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Walmart_ecommerce_Website_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.DealspageTest" class="method navigator-link" hash-for-method="enteremailtest">enteremailtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.MyAccountpageTest" class="method navigator-link" hash-for-method="getbannertexttest">getbannertexttest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.DealspageTest" class="method navigator-link" hash-for-method="gethdealstexttest">gethdealstexttest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.DealspageTest" class="method navigator-link" hash-for-method="gettitletest">gettitletest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.LoginpageTest" class="method navigator-link" hash-for-method="loginpagetitletest">loginpagetitletest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.HomepageTest" class="method navigator-link" hash-for-method="openflyerpage">openflyerpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.ShoppingCartpageTest" class="method navigator-link" hash-for-method="screenshottest">screenshottest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.DealspageTest" class="method navigator-link" hash-for-method="validateapplianceslinktest">validateapplianceslinktest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.CreateAccountpageTest" class="method navigator-link" hash-for-method="validatecreateaccount(sarah , smith, sunnyroad100@gmail.com, sarah_smith10)">validatecreateaccount(sarah , smith, sunnyroad100@gmail.com, sarah_smith10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.CreateAccountpageTest" class="method navigator-link" hash-for-method="validatecreateaccount(Grace, Thomson, gosain.niyati09@gmail.com, caricature10)">validatecreateaccount(Grace, Thomson, gosain.niyati09@gmail.com, caricature10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.CreateAccountpageTest" class="method navigator-link" hash-for-method="validatecreateaccount(Jake, Mathew, ggraphix26@mail.com, rajatgusain)">validatecreateaccount(Jake, Mathew, ggraphix26@mail.com, rajatgusain)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.MyAccountpageTest" class="method navigator-link" hash-for-method="validatelogotest">validatelogotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.MyAccountpageTest" class="method navigator-link" hash-for-method="validatequicklinktest">validatequicklinktest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.DealspageTest" class="method navigator-link" hash-for-method="validatetoyslinktest">validatetoyslinktest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.ShoppingCartpageTest" class="method navigator-link" hash-for-method="verifylogotest">verifylogotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walmart_ecommerce_Website_Test_Suite" title="WalmartTest_Testcases.MyAccountpageTest" class="method navigator-link" hash-for-method="verifyshoppingbtn">verifyshoppingbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Walmart_ecommerce_Website_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Walmart_ecommerce_Website_Test_Suite" class="panel Walmart_ecommerce_Website_Test_Suite">
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">WalmartTest_Testcases.FlyerpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectflyertypetest">
+                  </a> <!-- selectflyertypetest -->
+                  <span class="method-name">selectflyertypetest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;tr class=&quot;flyer_run_651587 clickable &quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-RL0VKOI&apos;, ip: &apos;192.168.179.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1918548, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a28e935c-555c-44a3-b34a-16d84f9cc201
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at WalmartTest_Pages.Flyerpage.selectflyertype(Flyerpage.java:73)
+	at WalmartTest_Testcases.FlyerpageTest.selectflyertypetest(FlyerpageTest.java:63)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-failed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">WalmartTest_Testcases.ShoppingCartpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycartpagetest">
+                  </a> <!-- verifycartpagetest -->
+                  <span class="method-name">verifycartpagetest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Online Shopping Canada: Everyday Low Prices at Walmart.ca!] but found [Walmart Canada]
+	at WalmartTest_Testcases.ShoppingCartpageTest.verifycartpagetest(ShoppingCartpageTest.java:37)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-failed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WalmartTest_Testcases.DealspageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enteremailtest">
+                  </a> <!-- enteremailtest -->
+                  <span class="method-name">enteremailtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gethdealstexttest">
+                  </a> <!-- gethdealstexttest -->
+                  <span class="method-name">gethdealstexttest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gettitletest">
+                  </a> <!-- gettitletest -->
+                  <span class="method-name">gettitletest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateapplianceslinktest">
+                  </a> <!-- validateapplianceslinktest -->
+                  <span class="method-name">validateapplianceslinktest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetoyslinktest">
+                  </a> <!-- validatetoyslinktest -->
+                  <span class="method-name">validatetoyslinktest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-passed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WalmartTest_Testcases.CreateAccountpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatecreateaccount(sarah , smith, sunnyroad100@gmail.com, sarah_smith10)">
+                  </a> <!-- validatecreateaccount(sarah , smith, sunnyroad100@gmail.com, sarah_smith10) -->
+                  <span class="method-name">validatecreateaccount</span>
+                  <span class="parameters">(sarah , smith, sunnyroad100@gmail.com, sarah_smith10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatecreateaccount(Grace, Thomson, gosain.niyati09@gmail.com, caricature10)">
+                  </a> <!-- validatecreateaccount(Grace, Thomson, gosain.niyati09@gmail.com, caricature10) -->
+                  <span class="method-name">validatecreateaccount</span>
+                  <span class="parameters">(Grace, Thomson, gosain.niyati09@gmail.com, caricature10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatecreateaccount(Jake, Mathew, ggraphix26@mail.com, rajatgusain)">
+                  </a> <!-- validatecreateaccount(Jake, Mathew, ggraphix26@mail.com, rajatgusain) -->
+                  <span class="method-name">validatecreateaccount</span>
+                  <span class="parameters">(Jake, Mathew, ggraphix26@mail.com, rajatgusain)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-passed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WalmartTest_Testcases.HomepageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openflyerpage">
+                  </a> <!-- openflyerpage -->
+                  <span class="method-name">openflyerpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-passed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WalmartTest_Testcases.MyAccountpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getbannertexttest">
+                  </a> <!-- getbannertexttest -->
+                  <span class="method-name">getbannertexttest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatelogotest">
+                  </a> <!-- validatelogotest -->
+                  <span class="method-name">validatelogotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatequicklinktest">
+                  </a> <!-- validatequicklinktest -->
+                  <span class="method-name">validatequicklinktest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyshoppingbtn">
+                  </a> <!-- verifyshoppingbtn -->
+                  <span class="method-name">verifyshoppingbtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-passed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WalmartTest_Testcases.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginpagetitletest">
+                  </a> <!-- loginpagetitletest -->
+                  <span class="method-name">loginpagetitletest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-passed -->
+          <div class="suite-Walmart_ecommerce_Website_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WalmartTest_Testcases.ShoppingCartpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshottest">
+                  </a> <!-- screenshottest -->
+                  <span class="method-name">screenshottest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifylogotest">
+                  </a> <!-- verifylogotest -->
+                  <span class="method-name">verifylogotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Walmart_ecommerce_Website_Test_Suite-class-passed -->
+        </div> <!-- panel Walmart_ecommerce_Website_Test_Suite -->
+        <div panel-name="test-xml-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\WalmartTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Walmart ecommerce Website Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Walmart Website Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.HomepageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.LoginpageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.OrderHistorypageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.ShoppingCartpageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.CreateAccountpageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.DealspageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.MyAccountpageTest&quot;/&gt;
+      &lt;class name=&quot;WalmartTest_Testcases.FlyerpageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Walmart Website Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Walmart ecommerce Website Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Walmart ecommerce Website Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Walmart Website Test Cases (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Walmart ecommerce Website Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Walmart ecommerce Website Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Walmart_ecommerce_Website_Test_Suite');
+function tableData_Walmart_ecommerce_Website_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectflyertypetest')
+data.setCell(0, 2, 'WalmartTest_Testcases.FlyerpageTest')
+data.setCell(0, 3, 20759);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openflyerpage')
+data.setCell(1, 2, 'WalmartTest_Testcases.HomepageTest')
+data.setCell(1, 3, 6228);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validatecreateaccount')
+data.setCell(2, 2, 'WalmartTest_Testcases.CreateAccountpageTest')
+data.setCell(2, 3, 5347);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatecreateaccount')
+data.setCell(3, 2, 'WalmartTest_Testcases.CreateAccountpageTest')
+data.setCell(3, 3, 4372);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validatecreateaccount')
+data.setCell(4, 2, 'WalmartTest_Testcases.CreateAccountpageTest')
+data.setCell(4, 3, 4329);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifylogotest')
+data.setCell(5, 2, 'WalmartTest_Testcases.ShoppingCartpageTest')
+data.setCell(5, 3, 1399);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enteremailtest')
+data.setCell(6, 2, 'WalmartTest_Testcases.DealspageTest')
+data.setCell(6, 3, 1347);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatetoyslinktest')
+data.setCell(7, 2, 'WalmartTest_Testcases.DealspageTest')
+data.setCell(7, 3, 850);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'screenshottest')
+data.setCell(8, 2, 'WalmartTest_Testcases.ShoppingCartpageTest')
+data.setCell(8, 3, 181);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validatelogotest')
+data.setCell(9, 2, 'WalmartTest_Testcases.MyAccountpageTest')
+data.setCell(9, 3, 111);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'gethdealstexttest')
+data.setCell(10, 2, 'WalmartTest_Testcases.DealspageTest')
+data.setCell(10, 3, 69);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyshoppingbtn')
+data.setCell(11, 2, 'WalmartTest_Testcases.MyAccountpageTest')
+data.setCell(11, 3, 67);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validatequicklinktest')
+data.setCell(12, 2, 'WalmartTest_Testcases.MyAccountpageTest')
+data.setCell(12, 3, 55);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getbannertexttest')
+data.setCell(13, 2, 'WalmartTest_Testcases.MyAccountpageTest')
+data.setCell(13, 3, 38);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateapplianceslinktest')
+data.setCell(14, 2, 'WalmartTest_Testcases.DealspageTest')
+data.setCell(14, 3, 35);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'gettitletest')
+data.setCell(15, 2, 'WalmartTest_Testcases.DealspageTest')
+data.setCell(15, 3, 10);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifycartpagetest')
+data.setCell(16, 2, 'WalmartTest_Testcases.ShoppingCartpageTest')
+data.setCell(16, 3, 10);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginpagetitletest')
+data.setCell(17, 2, 'WalmartTest_Testcases.LoginpageTest')
+data.setCell(17, 3, 3);
+window.suiteTableData['Walmart_ecommerce_Website_Test_Suite']= { tableData: data, tableDiv: 'times-div-Walmart_ecommerce_Website_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-Walmart_ecommerce_Website_Test_Suite">
+              </div> <!-- times-div-Walmart_ecommerce_Website_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Walmart ecommerce Website Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">WalmartTest_Testcases.FlyerpageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openflyertest</span>
+                <br/>
+                <span class="ignored-method-name">flyerpagetitletest</span>
+                <br/>
+                <span class="ignored-method-name">validateflyert</span>
+                <br/>
+                <span class="ignored-method-name">selectringpooltest</span>
+                <br/>
+                <span class="ignored-method-name">shoppinglisttest</span>
+                <br/>
+                <span class="ignored-method-name">validatepdfbtntest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Walmart_ecommerce_Website_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.HomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openflyerpage</span>
+                <span class="method-start">13074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">19305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.ShoppingCartpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">screenshottest</span>
+                <span class="method-start">35685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">35867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifycartpagetest</span>
+                <span class="method-start">51408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">51421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifylogotest</span>
+                <span class="method-start">68267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">69667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.CreateAccountpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">73092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatecreateaccount(Grace, Thomson, gosain.niyati09@gmail.com, caricature10)</span>
+                <span class="method-start">85573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">89947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">91823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatecreateaccount(Jake, Mathew, ggraphix26@mail.com, rajatgusain)</span>
+                <span class="method-start">102570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">107918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">109945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatecreateaccount(sarah , smith, sunnyroad100@gmail.com, sarah_smith10)</span>
+                <span class="method-start">123055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">127385 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.DealspageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">129177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enteremailtest</span>
+                <span class="method-start">144971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">146319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">148930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">gethdealstexttest</span>
+                <span class="method-start">165753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">165823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">167835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">gettitletest</span>
+                <span class="method-start">183285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">183296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">185930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateapplianceslinktest</span>
+                <span class="method-start">200749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">200785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">203028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatetoyslinktest</span>
+                <span class="method-start">218150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">219001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.MyAccountpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">220872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getbannertexttest</span>
+                <span class="method-start">252031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">252070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">254021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatelogotest</span>
+                <span class="method-start">283034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">283146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">285693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatequicklinktest</span>
+                <span class="method-start">305302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">305359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">307152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyshoppingbtn</span>
+                <span class="method-start">330054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">330122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.FlyerpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">331989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectflyertypetest</span>
+                <span class="method-start">362670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">383431 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WalmartTest_Testcases.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">385428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginpagetitletest</span>
+                <span class="method-start">403606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">403610 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

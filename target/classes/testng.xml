@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Walmart ecommerce Website Test Suite">
+	<test name="Walmart Website Test Cases">
+		<classes>
+			<class name="WalmartTest_Testcases.HomepageTest"></class>
+			<class name="WalmartTest_Testcases.LoginpageTest"></class>
+			<class name="WalmartTest_Testcases.OrderHistorypageTest"></class>
+			<class name="WalmartTest_Testcases.ShoppingCartpageTest"></class>
+			<class name="WalmartTest_Testcases.CreateAccountpageTest"></class>
+			<class name="WalmartTest_Testcases.DealspageTest"></class>
+			<class name="WalmartTest_Testcases.MyAccountpageTest"></class>
+			<class name="WalmartTest_Testcases.FlyerpageTest"></class>
+
+
+
+
+
+		</classes>
+	</test>
+</suite> 

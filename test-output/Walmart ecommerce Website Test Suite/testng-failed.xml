@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Walmart ecommerce Website Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Walmart Website Test Cases(failed)">
+    <classes>
+      <class name="WalmartTest_Testcases.FlyerpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="selectflyertypetest"/>
+        </methods>
+      </class> <!-- WalmartTest_Testcases.FlyerpageTest -->
+      <class name="WalmartTest_Testcases.ShoppingCartpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifycartpagetest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- WalmartTest_Testcases.ShoppingCartpageTest -->
+    </classes>
+  </test> <!-- Walmart Website Test Cases(failed) -->
+</suite> <!-- Failed suite [Walmart ecommerce Website Test Suite] -->
